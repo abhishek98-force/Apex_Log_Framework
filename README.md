@@ -1,4 +1,4 @@
-# A Log Framework for Apex Development
+# A Logging Framework for Apex Development
 
 ## API Reference
 
