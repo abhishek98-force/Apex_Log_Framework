@@ -13,7 +13,7 @@ This function is used to collect log entries. These entries can be published all
 #### Example
 
 ```javascript```
-addLog('This is a new log entry');
+addLog('This is a new log entry'); <br/>
 addLog(new Error('This is a new exception log entry'));
 
 
@@ -28,6 +28,6 @@ This function is used to publish a single log entry immediately. It can also be 
 #### Example
 
 ```javascript```
-publish('This is a new log entry');
-publish(new Error('This is a new exception log entry'));
+publish('This is a new log entry'); </br>
+publish(new Error('This is a new exception log entry')); </br>
 publish(); // This will publish all log entries collected by addLog
